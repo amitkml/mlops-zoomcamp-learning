@@ -12,8 +12,11 @@ For this we recommend creating a separate Python environment, for example, you c
 Once you installed the package, run the command `mlflow --version` and check the output.
 
 What's the version that you have?
-
-
+**Answer:**:
+```
+(mlflow-mlops) ubuntu@ip-xx-xx-xx-xxx:~/mlops-zoomcamp/02-experiment-tracking/homework$ mlflow --version
+mlflow, version 1.26.0
+```
 ## Q2. Download and preprocess the data
 
 We'll use the Green Taxi Trip Records dataset. 
@@ -42,6 +45,8 @@ How many files were saved to `OUTPUT_FOLDER`?
 * 3
 * 4
 * 7
+**Answer:**
+4
 
 
 ## Q3. Train a model with autolog
@@ -63,6 +68,8 @@ How many parameters are automatically logged by MLflow?
 * 10
 * 20
 
+**Answer:**
+17
 
 ## Q4. Launch the tracking server locally
 
