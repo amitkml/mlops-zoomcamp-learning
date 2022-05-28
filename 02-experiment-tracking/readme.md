@@ -12,6 +12,7 @@ For this we recommend creating a separate Python environment, for example, you c
 Once you installed the package, run the command `mlflow --version` and check the output.
 
 What's the version that you have?
+
 **Answer:**:
 ```
 (mlflow-mlops) ubuntu@ip-xx-xx-xx-xxx:~/mlops-zoomcamp/02-experiment-tracking/homework$ mlflow --version
@@ -45,6 +46,8 @@ How many files were saved to `OUTPUT_FOLDER`?
 * 3
 * 4
 * 7
+
+
 **Answer:**
 4
 
