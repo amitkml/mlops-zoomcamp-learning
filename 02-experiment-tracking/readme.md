@@ -163,3 +163,6 @@ The deadline for submitting is 31 May 2022 (Tuesday) at 17:00 CET. After that, t
 ## Solution
 
 The solution will be put here after the deadline.
+
+## References
+- https://databricks.com/blog/2020/02/18/how-to-display-model-metrics-in-dashboards-using-the-mlflow-search-api.html
