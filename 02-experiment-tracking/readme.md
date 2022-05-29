@@ -1,7 +1,12 @@
 ## Homework
 
 The goal of this homework is to get familiar with MLflow.
+Following two lines are important
 
+```
+mlflow.set_tracking_uri("http://127.0.0.1:5000")
+mlflow.set_experiment("ak-mlops-hm-nyc-taxi-experiment")
+```
 
 ## Q1. Install MLflow
 
@@ -117,6 +122,8 @@ What's the best validation RMSE that you got?
 * 7.128
 * 7.628
 
+**Answer:**
+I have run the script python3 hpo_homework.py --data_path ../output
 
 ## Q6. Promote the best model to the model registry
 
