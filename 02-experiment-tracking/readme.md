@@ -152,6 +152,28 @@ I have executed the following modified script.
 
 ```
 python3 register_model_homework.py --data_path ../output
+
+(mlflow-mlops) ubuntu@ip-xx-xx-xx-xxx:~/mlops-zoomcamp/02-experiment-tracking/homework$ python3 register_model_homework.py
+2022/05/29 08:28:06 WARNING mlflow.utils.autologging_utils: You are using an unsupported version of sklearn. If you encounter errors during autologging, try upgrading / downgrading sklearn to a supported version, or try upgrading MLflow.
+{'max_depth': '19', 'min_samples_leaf': '3', 'min_samples_split': '5', 'n_estimators': '28', 'random_state': '42'}
+2022/05/29 08:28:28 WARNING mlflow.utils.autologging_utils: MLflow autologging encountered a warning: "/home/ubuntu/anaconda3/envs/mlflow-mlops/lib/python3.9/site-packages/_distutils_hack/__init__.py:30: UserWarning: Setuptools is replacing distutils."
+{'max_depth': '20', 'min_samples_leaf': '2', 'min_samples_split': '3', 'n_estimators': '23', 'random_state': '42'}
+{'max_depth': '20', 'min_samples_leaf': '2', 'min_samples_split': '4', 'n_estimators': '33', 'random_state': '42'}
+{'max_depth': '20', 'min_samples_leaf': '2', 'min_samples_split': '2', 'n_estimators': '33', 'random_state': '42'}
+{'max_depth': '20', 'min_samples_leaf': '2', 'min_samples_split': '2', 'n_estimators': '25', 'random_state': '42'}
+Best Run Details of Model:<Run: data=<RunData: metrics={'rmse': 8.833340047466741}, params={'max_depth': '1',
+ 'min_samples_leaf': '4',
+ 'min_samples_split': '5',
+ 'n_estimators': '16',
+ 'random_state': '42'}, tags={'mlflow.source.git.commit': 'a67d7a9302449d0b4084949601236f69c278a02f',
+ 'mlflow.source.name': 'hpo_homework.py',
+ 'mlflow.source.type': 'LOCAL',
+ 'mlflow.user': 'ubuntu',
+ 'model': 'RandomForestRegressor'}>, info=<RunInfo: artifact_uri='./mlruns/3/7723c6b70a554cdeb051d385c8538d75/artifacts', end_time=1653797729326, experiment_id='3', lifecycle_stage='active', run_id='7723c6b70a554cdeb051d385c8538d75', run_uuid='7723c6b70a554cdeb051d385c8538d75', start_time=1653797729043, status='FINISHED', user_id='ubuntu'>>
+Other Values:./mlruns/3/589e3747115642a0b3ea4b40a4da83e2/artifacts
+Successfully registered model 'ak-mlops-best-radnom-forest'.
+2022/05/29 08:29:59 INFO mlflow.tracking._model_registry.client: Waiting up to 300 seconds for model version to finish creation.                     Model name: ak-mlops-best-radnom-forest, version 1
+Created version '1' of model 'ak-mlops-best-radnom-forest'.
 ```
 
 ## Submit the results
