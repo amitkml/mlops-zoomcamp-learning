@@ -124,7 +124,12 @@ What's the best validation RMSE that you got?
 
 **Answer:**
 I have run the script python3 hpo_homework.py --data_path ../output
-best RMSE is 6.628
+best RMSE is 6.628 and associated parameters are
+- max_depth	19
+- min_samples_leaf	3
+- min_samples_split	5
+- n_estimators	28
+- random_state	42
 
 ## Q6. Promote the best model to the model registry
 
