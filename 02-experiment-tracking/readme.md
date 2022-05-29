@@ -147,6 +147,12 @@ What is the test RMSE of the best model?
 * 7.93
 * 15.1
 
+**Answer:**
+I have executed the following modified script.
+
+```
+python3 register_model_homework.py --data_path ../output
+```
 
 ## Submit the results
 
