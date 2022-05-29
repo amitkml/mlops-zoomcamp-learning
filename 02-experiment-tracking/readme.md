@@ -124,6 +124,7 @@ What's the best validation RMSE that you got?
 
 **Answer:**
 I have run the script python3 hpo_homework.py --data_path ../output
+best RMSE is 6.628
 
 ## Q6. Promote the best model to the model registry
 
