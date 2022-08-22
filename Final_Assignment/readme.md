@@ -5,6 +5,7 @@ The aim of the project is to make a production service with experiment tracking,
 ## Dataset
 The dataset is available from [kaggle House Rent Prediction Dataset
 ](https://www.kaggle.com/datasets/iamsouravbanerjee/house-rent-prediction-dataset).
+
 **Dataset Glossary (Column-Wise):**
 - BHK: Number of Bedrooms, Hall, Kitchen.
 - Rent: Rent of the Houses/Apartments/Flats.
