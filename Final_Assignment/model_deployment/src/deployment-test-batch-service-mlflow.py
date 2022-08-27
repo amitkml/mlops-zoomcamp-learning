@@ -102,7 +102,7 @@ result_slacerfile = 'result_scaler.sav'
 scaler = pickle.load(open(scalerfile, 'rb'))
 scaler_result = pickle.load(open(result_slacerfile, 'rb'))
 
-mlflow_run_id = "ed0da4c85b064d40b8413989b1b28583"
+mlflow_run_id = "b9cf70dad0af4a9fb8db7875b8431947"
 # MLFLOW_TRACKING_URI = "http://127.0.0.1:5000"
 # mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
 # mlflow.set_experiment("house-rent-prediction-experiment")
@@ -137,7 +137,7 @@ def run():
     filepath = "test_predict.csv"
     X_test, rent_data = read_prepare_feature(filepath)
     pred_list = predict(X_test, model)
-    rent_data['Predicted_Normalized_Rent'] = pred_list
+    rent_data['Predicted_Rent'] = pred_list
     rent_data.to_csv("test_predict_result.csv",index=False)
 
 if __name__ == '__main__':

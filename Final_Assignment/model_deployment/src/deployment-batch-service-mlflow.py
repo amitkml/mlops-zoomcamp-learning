@@ -143,8 +143,8 @@ def scale_data(X_train, X_test, y_train, y_test):
     sc_y = StandardScaler()
     X_train = sc_X.fit_transform(X_train)
     X_test = sc_X.fit_transform(X_test)
-    y_train = sc_X.fit_transform(y_train)
-    y_test = sc_y.fit_transform(y_test)
+    # y_train = sc_X.fit_transform(y_train)
+    # y_test = sc_y.fit_transform(y_test)
     print("Data scaling done")
     return  X_train, X_test, y_train, y_test
 
