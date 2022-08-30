@@ -8,3 +8,4 @@ This page explains how I have deployed the model into cloud and exposed as batch
 - https://hands-on.cloud/terraform-deploy-python-lambda-container-image/
 - https://kevsoft.net/2019/04/26/multi-line-powershell-in-terraform.html
 - https://www.devopsschool.com/blog/understanding-local-exec-provisioner-in-terraform/
+- https://stackoverflow.com/questions/65576285/docker-login-on-ecr-fails-with-400-bad-request-on-powershell-from-jenkins
