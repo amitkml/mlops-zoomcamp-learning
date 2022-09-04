@@ -11,15 +11,13 @@ from datetime import (
     timedelta,
 )
 
-# import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import mlflow
 import numpy as np
 import pandas as pd
-
-# import plotly.express as px
+import plotly.express as px
 import requests as req
-
-# import seaborn as sns
+import seaborn as sns
 from dateutil.relativedelta import (
     relativedelta,
 )
@@ -31,14 +29,14 @@ from mlflow.tracking import (
 # from sklearn.ensemble import VotingRegressor
 # from sklearn.ensemble import StackingRegressor
 ##
-# from prefect import (
-#     flow,
-#     get_run_logger,
-#     task,
-# )
-# from prefect.task_runners import (
-#     SequentialTaskRunner,
-# )
+from prefect import (
+    flow,
+    get_run_logger,
+    task,
+)
+from prefect.task_runners import (
+    SequentialTaskRunner,
+)
 from sklearn import (
     metrics,
 )
@@ -90,10 +88,9 @@ from sklearn.svm import (
 from sklearn.tree import (
     DecisionTreeRegressor,
 )
-
-# from wordcloud import (
-#     WordCloud,
-# )
+from wordcloud import (
+    WordCloud,
+)
 
 ##
 
@@ -123,7 +120,7 @@ mlflow_run_id = "b9cf70dad0af4a9fb8db7875b8431947"
 # MLFLOW_TRACKING_URI = "http://127.0.0.1:5000"
 # mlflow.set_tracking_uri(MLFLOW_TRACKING_URI)
 # mlflow.set_experiment("house-rent-prediction-experiment")
-logged_model = f'{mlflow_run_id}/artifacts/models/stacking'
+logged_model = f'mlruns/6/{mlflow_run_id}/artifacts/models/stacking'
 model = mlflow.pyfunc.load_model(
     logged_model
 )
@@ -196,23 +193,6 @@ def predict(
 
 
 def run():
-    dirpath = (
-        os.getcwd()
-    )
-    print(
-        "dirpath = ",
-        dirpath,
-        "\n",
-    )
-    output_path = os.path.join(
-        dirpath,
-        'output.csv',
-    )
-    print(
-        output_path,
-        "\n",
-    )
-
     filepath = "test_predict.csv"
     (
         X_test,
