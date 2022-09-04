@@ -19,6 +19,10 @@ The dataset is available from [kaggle House Rent Prediction Dataset
 - Bathroom: Number of Bathrooms.
 - Point of Contact: Whom should you contact for more information regarding the Houses/Apartments/Flats.
 
+## Trained Model
+
+- It has been released as github release and available in https://github.com/amitkml/mlops-zoomcamp-learning/releases/tag/v0.1.0-alpha-home-rent
+
 ## High Level Solution
 The project is implemented on Ubuntu 22.04 on Amazon AWS. The described steps for reproducbility are based on specific AWS configuration. This repository has 2 folders: src and data. The folder data contains the whole dataset for the given service. In the folder src the main source code is provided with various configuration files for docker and existing databases.
 
