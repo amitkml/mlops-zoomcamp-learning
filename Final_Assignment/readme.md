@@ -26,3 +26,6 @@ The dataset is available from [kaggle House Rent Prediction Dataset
 ## High Level Solution
 The project is implemented on Ubuntu 22.04 on Amazon AWS. The described steps for reproducbility are based on specific AWS configuration. This repository has 2 folders: src and data. The folder data contains the whole dataset for the given service. In the folder src the main source code is provided with various configuration files for docker and existing databases.
 
+## References
+- https://www.codeac.io/documentation/pylint-configuration.html
+
