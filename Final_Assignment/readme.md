@@ -28,4 +28,5 @@ The project is implemented on Ubuntu 22.04 on Amazon AWS. The described steps fo
 
 ## References
 - https://www.codeac.io/documentation/pylint-configuration.html
+- https://towardsdatascience.com/build-and-run-a-docker-container-for-your-machine-learning-model-60209c2d7a7f
 
