@@ -231,6 +231,12 @@ def run():
         "test_predict_result.csv",
         index=False,
     )
+    print(
+        rent_data.head(
+            10
+        ),
+        "\n",
+    )
 
 
 if (

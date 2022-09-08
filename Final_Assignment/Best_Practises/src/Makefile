@@ -24,3 +24,5 @@ build: test
 
 integration_test: build
 	LOCAL_IMAGE_NAME=${LOCAL_IMAGE_NAME}
+	docker run ${LOCAL_IMAGE_NAME} python3 deployment-test-batch-service-mlflow.py
+	echo "publishing image ${LOCAL_IMAGE_NAME} to ECR..."
